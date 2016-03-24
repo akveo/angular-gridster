@@ -650,7 +650,7 @@
 							}
 
 							if (gridster.colWidth === 'auto') {
-								gridster.curColWidth = (gridster.curWidth + (gridster.outerMargin ? -gridster.margins[1] : gridster.margins[1])) / gridster.columns;
+								gridster.curColWidth = gridster.curWidth / gridster.columns;
 							} else {
 								gridster.curColWidth = gridster.colWidth;
 							}
